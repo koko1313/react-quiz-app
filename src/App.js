@@ -15,6 +15,12 @@ function App() {
       <Button isCorrect={false}>80 см</Button>
       <Button isCorrect={true}>120 см</Button>
     </Quiz>
+
+    <Quiz vapros="Колко са дълги опашките на тигрите?">
+      <Button isCorrect={false}>30 см</Button>
+      <Button isCorrect={false}>80 см</Button>
+      <Button isCorrect={true}>120 см</Button>
+    </Quiz>
   </>;
 }
 
