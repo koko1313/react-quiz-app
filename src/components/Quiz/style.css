@@ -6,6 +6,7 @@
     background-color: red;
     color: white;
 }
+
 .quiz {
     background-color: white;
     max-width: 600px;
@@ -20,10 +21,18 @@
 .quiz-question {
     background-color: #262626;
     color: #8e8e8e;
-    padding: 1px;
+    padding: 20px;
+}
+
+.quiz .quiz-question h2 {
+    margin: 0;
 }
 
 .question-btn {
     margin: 0 20px;
     border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    border: 3px solid black;
 }
